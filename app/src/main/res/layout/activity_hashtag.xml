@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_leftback"
+            app:tint="#333333"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="话题详情"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_hashtag_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#话题"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这里展示话题下的相关内容"
+            android:layout_marginTop="10dp"
+            android:textColor="#999999"/>
+
+    </LinearLayout>
+
+</LinearLayout>
